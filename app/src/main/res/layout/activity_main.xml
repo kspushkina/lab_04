@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6A3E1"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Наименование товара" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Количество" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Цена" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Apple" />
+
+        <EditText
+            android:id="@+id/applenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/appleprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/strawberry"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Strawberry" />
+
+        <EditText
+            android:id="@+id/strawberrynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/strawberryprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/blueberry"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blueberry" />
+
+        <EditText
+            android:id="@+id/blueberrynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/blueberryprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/potatoes"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Potatoes" />
+
+        <EditText
+            android:id="@+id/potatoesnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/potatoesprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calc"
+            android:text="CALCULATE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Пушкина 225" />
+    </LinearLayout>
+</LinearLayout>
